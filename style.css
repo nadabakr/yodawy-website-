@@ -1,0 +1,189 @@
+:root{
+    --primary-color:white;
+    --secondary-color:#1AA7DB;
+    --third-color:#1e2842;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    object-fit: contain;
+    display: flex;
+}
+.container{
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.p-gray{
+    color: gray;
+}
+
+/* header */
+
+/* header-contact */
+#header{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
+}
+#contact-header{
+    padding: 0% 8%;
+    position: relative;
+}
+.header-source-app-img{
+    width: 17%;
+}
+.social-link-header{
+    left: 183%;
+    position: absolute;
+}
+.icon{
+    margin-left: 15px;
+}
+#contact-header::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 1px;
+    width: 216%;
+    right: -116%;
+    top: 43px;
+}
+
+/* header-logo-nav */
+#logo-navigation{
+    padding: 15px 100px 0px;
+    position: relative;
+}
+#logo-img{
+    height: 50px;
+}
+#nav{
+    padding-right: 22%;
+    width: 43%;
+}
+.active::after{
+    content: "";
+    position: absolute;
+    background-color:var(--primary-color);
+    height: 2px;
+    width: 80px;
+    right: 56.5%;
+    bottom: 13px;
+}
+
+/* Re-defining your pharmacy experience */
+#about-us{
+    padding: 0% 20%;
+}
+#about-us-img{
+    width: 35%;
+}
+h1{
+    font-size: 40px;
+}
+.about-us-content{
+    padding-left: 5%;
+}
+
+/* body */
+#body{
+    padding: 5%;
+}
+
+/* footer */
+#footer{
+    background-color: var(--third-color);
+    padding: 10% 8% 4%;
+    color: var(--primary-color);
+    font-size: 15px;
+    position: relative;
+}
+.sec1{
+    width: 45%;
+    padding-right: 15px;
+}
+#footer-logo{
+    width: 50%;
+}
+.social-link-footer{
+    margin-right: 70%;
+    font-size: 20px;
+}
+.sec2{
+    padding-bottom: 46px;
+}
+.explore{
+    width: 19%;
+    padding-right: 40%;
+}
+.explore-link{
+    line-height: 2;
+}
+a.explore-link:hover{
+    color: gray;
+}
+.footer-source-app{
+    border: 1px solid var(--primary-color) ;
+    border-radius: 10px;
+    display: flex;
+}
+.footer-source-app-img{
+    padding: 5px;
+}
+.download-app-footer{
+    padding-top: 5px;
+}
+.p-app{
+    width: 100%;
+    font-size: 1px;
+    padding: 2px 0px;
+    padding-right: 20px;
+
+}
+.source-font-size{
+    font-size: 20px;
+}
+.p-download{
+    font-size: 12px;
+}
+/* copy right */
+#copy-right{
+    padding: 1px;
+    background-color: #1C2538;
+    text-align: center;
+}
+.p-copy-right{
+    color: gray;
+
+}
+/* contact us */
+.contact-us-sec{
+    color: var(--primary-color);
+    position: absolute;
+    bottom: -35%;
+    right: 8%;
+    display: flex;
+} 
+
+.contact{
+    background-color: var(--secondary-color);
+    padding: 2% 4%;
+}
+.cont-color{
+    background-color:#0e9bd0;
+    padding: 2% 4%;
+}
+.contact-icon{
+    font-size: 50px;
+    padding-bottom: 24px;
+    padding-right: 41px;
+}
